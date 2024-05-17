@@ -1,0 +1,42 @@
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 30%;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 10px #ccc;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text {
+  font-size: 17px;
+  text-align: justify;
+  padding: 10px 35px;
+}
+
+.price {
+  color: red;
+  font-size: 20px;
+  padding: 7px;
+  font-weight: 600;
+}
